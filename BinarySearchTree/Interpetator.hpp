@@ -25,19 +25,7 @@ class Interpolator{
         double x3 = 0.0;
         double y3 = 0.0;
         
-        if (x1 > x2){
-            x3 = x1-x2;
-        }
-        else{
-            x3 = x2-x1;
-        }
-        
-        if (y1 > y2){
-            y3 = y1-y2;
-        }
-        else{
-            y3 = y2-y1;
-        }
+        x3 = fabs(x2 - x1);
         
         
         

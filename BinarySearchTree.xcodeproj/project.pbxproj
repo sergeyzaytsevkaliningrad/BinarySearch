@@ -115,6 +115,9 @@
 				Base,
 			);
 			mainGroup = 1232E6C4298A7D1B003ED4C5;
+			packageReferences = (
+				121D7940299E6D58002DC5C3 /* XCRemoteSwiftPackageReference "boost" */,
+			);
 			productRefGroup = 1232E6CE298A7D1B003ED4C5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -289,6 +292,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		121D7940299E6D58002DC5C3 /* XCRemoteSwiftPackageReference "boost" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/boostorg/boost.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 1232E6C5298A7D1B003ED4C5 /* Project object */;
 }
