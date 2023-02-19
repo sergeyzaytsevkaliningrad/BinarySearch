@@ -10,20 +10,26 @@
 
 #include <iostream>
 #include <vector>
+#include "BinarySearch.hpp"
 
 using namespace::std;
-//class Vector{
+
+
+
 int main(){
     
         int n, m;       // Создание переменных отвечающих за размер вектора
         cin >> n >> m;  // Ввод размеров вектора
 
-        vector < vector <int> > a(n, vector <int> (m) ); // Объявление вектора на n строк по m элементов
+        vector < vector <float> > a(n, vector <float> (m) ); // Объявление вектора на n строк по m элементов
 
         for (int i = 0; i < n; i++)     // Цикл, который идёт по строкам
             for (int j = 0; j < m; j++) // Цикл, который идёт по элементам
             {
-                cin >> a[i][j]; // Заполнение вектора или массива (в данном случае ввод)
+                cin >> a[i][j];// Заполнение вектора или массива (в данном случае ввод)
+                
+                
+                
             }
 
         for (int i = 0; i < n; i++) // Цикл, который идёт по строкам
