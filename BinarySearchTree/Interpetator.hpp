@@ -21,17 +21,12 @@ class Interpolator{
     double z;
     
     float findClosestPoint(double x1, double y1, double x2, double y2) {
-        
+         
         double x3 = 0.0;
         double y3 = 0.0;
         
         x3 = fabs(x2 - x1);
         
-        
-        
-        
         return 0;
     }
-    
-    
 };

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1232E6D1298A7D1B003ED4C5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1232E6D0298A7D1B003ED4C5 /* main.cpp */; };
 		1232E6D9298A7D3B003ED4C5 /* BinarySearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1232E6D7298A7D3B003ED4C5 /* BinarySearch.cpp */; };
 		1290DAD7298E97170026EAD9 /* Interpetator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1290DAD5298E97170026EAD9 /* Interpetator.cpp */; };
+		12EC40AB29A2581000E66DE7 /* TemVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12EC40A929A2581000E66DE7 /* TemVector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +26,12 @@
 
 /* Begin PBXFileReference section */
 		1232E6CD298A7D1B003ED4C5 /* BinarySearchTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinarySearchTree; sourceTree = BUILT_PRODUCTS_DIR; };
-		1232E6D0298A7D1B003ED4C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1232E6D7298A7D3B003ED4C5 /* BinarySearch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch.cpp; sourceTree = "<group>"; };
 		1232E6D8298A7D3B003ED4C5 /* BinarySearch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearch.hpp; sourceTree = "<group>"; };
 		1290DAD5298E97170026EAD9 /* Interpetator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Interpetator.cpp; sourceTree = "<group>"; };
 		1290DAD6298E97170026EAD9 /* Interpetator.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Interpetator.hpp; sourceTree = "<group>"; };
+		12EC40A929A2581000E66DE7 /* TemVector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemVector.cpp; sourceTree = "<group>"; };
+		12EC40AA29A2581000E66DE7 /* TemVector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TemVector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +64,12 @@
 		1232E6CF298A7D1B003ED4C5 /* BinarySearchTree */ = {
 			isa = PBXGroup;
 			children = (
-				1232E6D0298A7D1B003ED4C5 /* main.cpp */,
 				1232E6D7298A7D3B003ED4C5 /* BinarySearch.cpp */,
 				1290DAD5298E97170026EAD9 /* Interpetator.cpp */,
+				12EC40A929A2581000E66DE7 /* TemVector.cpp */,
 				1290DAD6298E97170026EAD9 /* Interpetator.hpp */,
 				1232E6D8298A7D3B003ED4C5 /* BinarySearch.hpp */,
+				12EC40AA29A2581000E66DE7 /* TemVector.hpp */,
 			);
 			path = BinarySearchTree;
 			sourceTree = "<group>";
@@ -133,8 +135,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1232E6D9298A7D3B003ED4C5 /* BinarySearch.cpp in Sources */,
+				12EC40AB29A2581000E66DE7 /* TemVector.cpp in Sources */,
 				1290DAD7298E97170026EAD9 /* Interpetator.cpp in Sources */,
-				1232E6D1298A7D1B003ED4C5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
